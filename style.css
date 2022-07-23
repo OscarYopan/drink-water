@@ -12,21 +12,22 @@ html{
 }
 
 body{
+  background-color: darkcyan;
+  color: white;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  height: 100vh;
-  /* overflow: hidden; */
+  margin-bottom: 4rem;
 }
 
-.big-glass {
+.big-cup {
   border: .2rem solid black;
   border-radius: 0 0 3rem 3rem;
-  padding: 6rem 2rem;
+  padding: 8rem 2rem;
 }
 
-.glass {
+.cup {
   border: .2rem solid black;
   border-radius: 0 0 3rem 3rem;
-  padding: 2rem 1rem;
+  padding: 4rem 1rem;
 }
