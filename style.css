@@ -72,3 +72,34 @@ p {
   justify-content: center;
   width: 28rem;
 }
+
+.remained {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+  transition: 0.3s ease;
+}
+
+.remained span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.remained small {
+  font-size: 1.2rem;
+}
+
+.percentage {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  height: 0;
+  transition: 0.3s ease;
+}
