@@ -3,11 +3,14 @@ const liters = document.querySelector('#liters')
 const percentage = document.querySelector('.percentage')
 const remained = document.querySelector('.remained')
 
+
 updateBigCup()
+
 
 smallCups.forEach((cup, idx)=> {
   cup.addEventListener('click', () => hightLightCups(idx))
 });
+
 
 function hightLightCups(idx) {  
   if (smallCups[idx].classList.contains('full') && !smallCups[idx].nextElementSibling.classList.contains('full')) {
@@ -24,6 +27,7 @@ function hightLightCups(idx) {
 
   updateBigCup()
 }
+
 
 function updateBigCup () {
   const fullCups = document.querySelectorAll('.cup-small.full').length
