@@ -16,18 +16,59 @@ body{
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   margin-bottom: 4rem;
 }
+h1 {
+  margin: 1rem auto 0;
+  font-size: 2.4rem;
+}
 
-.big-cup {
-  border: .2rem solid black;
-  border-radius: 0 0 3rem 3rem;
-  padding: 8rem 2rem;
+h3 {
+  font-weight: 400;
+  margin: 1rem auto;
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.6rem;
+  margin: 2rem auto;
 }
 
 .cup {
-  border: .2rem solid black;
-  border-radius: 0 0 3rem 3rem;
-  padding: 4rem 1rem;
+  border: .4rem solid #00008b;
+  border-radius: 0 0 4rem 4rem;
+  background-color: white;
+  color: #00008b;
+  height: 33rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.cup.cup-small {
+  height: 9.5rem;
+  width: 5rem;
+  border-radius: 0 0 1.5rem 1.5rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  font-size: 1.4rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: .5rem;
+  transition: 0.3s ease;  
+}
+
+.cup.cup-small.full {
+  background-color: aqua;
+}
+
+.cups {
+  display: flex;
+  flex-wrap: wrap;  
+  align-items: center;
+  justify-content: center;
+  width: 28rem;
 }
